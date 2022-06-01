@@ -35,8 +35,6 @@
   <p>Role: {{ role }}</p>
   <p>Terms: {{ terms }}</p>
 </template>
-// challenge
-//   - when a user clicks on a skill, delete that skill
 
 <script>
 export default {
