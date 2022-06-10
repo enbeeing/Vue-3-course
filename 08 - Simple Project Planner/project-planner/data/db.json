@@ -1,0 +1,22 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "New project",
+      "details": "Text, more text",
+      "complete": true
+    },
+    {
+      "title": "new ",
+      "details": "details",
+      "complete": true,
+      "id": 2
+    },
+    {
+      "title": "hello",
+      "details": "world",
+      "complete": false,
+      "id": 5
+    }
+  ]
+}
