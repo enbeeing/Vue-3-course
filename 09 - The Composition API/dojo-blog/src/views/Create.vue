@@ -29,7 +29,7 @@ const router = useRouter();
 
 const addTag = () => {
   if (!tags.value.includes(tag.value)) {
-    tag.value = tag.value.replace(/\s/, ""); // only works for the first whitespace
+    tag.value = tag.value.replace(/\s/g, "");
     tags.value.push(tag.value);
   }
   tag.value = "";
